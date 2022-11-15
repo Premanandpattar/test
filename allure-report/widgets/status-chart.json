@@ -1,0 +1,1 @@
+[{"uid":"de66cc20d98e6765","name":"practice - reg","time":{"start":1668489883540,"stop":1668489947211,"duration":63671},"status":"broken","severity":"normal"},{"uid":"cac31f9974faf896","name":"should login with valid credentials","time":{"start":1668489752878,"stop":1668489803205,"duration":50327},"status":"failed","severity":"normal"}]

@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668489883537' stop='1668489947219'>
+    <name>Test</name>
+    <title>Test</title>
+    <test-cases>
+        <test-case start='1668489883540' status='broken' stop='1668489947211'>
+            <name>practice - reg</name>
+            <title>practice - reg</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='da57c9f6-67d8-4b6a-9b5c-21e461d00446-attachment.png' type='image/png' size='331650'/>
+                <attachment title='Screenshot' source='d30f206f-0377-45be-b651-cc75c6e5bc3c-attachment.png' type='image/png' size='297562'/>
+                <attachment title='Screenshot' source='b4faec2f-0168-4010-b106-1c1b8926fa5f-attachment.png' type='image/png' size='303388'/>
+            </attachments>
+            <failure>
+                <message>invalid element state
+                  (Session info: chrome=107.0.5304.107)</message>
+                <stack-trace>invalid element state: invalid element state
+                  (Session info: chrome=107.0.5304.107)
+                    at getErrorFromResponseBody (C:\Users\prema\Desktop\test\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\prema\Desktop\test\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (C:\Users\prema\Desktop\test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\prema\Desktop\test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\prema\Desktop\test\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\prema\Desktop\test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\prema\Desktop\test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\prema\Desktop\test\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\prema\Desktop\test\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
